@@ -5,3 +5,7 @@ background-size: cover;
 height:630px;
 color: white;
 }
+header {
+	background-color: red;
+	height: 20px;
+}
