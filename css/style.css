@@ -1,11 +1,71 @@
-body {
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-height:630px;
-color: white;
+ body{
+ font-family: Arial serif;
+ background-color: #f4f4f4;
+ }
+.open-slide-bar{
+padding: 14px 16px 14px;
 }
-head {
-	background-color: red;
-	height: 20px;
+.nav-bar{ 
+	height: 60px;
+	background-color: #3b5998;
+	overflow: hidden;
+}
+.Menu{
+color: white;
+float: right;
+list-style: none;
+ margin: 20px;
+}
+.Menu li{
+	display: inline-block;
+	margin: 10px 5px 0 0;
+	list-style: none;
+}
+.Menu li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	text-align: center;
+	color: #f2f2f2;
+	font-size: 17px;
+	float: left;
+	display: block;\
+	padding: 14px 16px;
+
+}
+.Menu li a:hover{
+	background-color: #ddd;
+	color: #000;
+}
+.side-nav-bar{
+	height: 100%
+	width:0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	opacity: 0.9;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+	}
+ .side-nav-bar a{
+ 	padding: 10px 10px 10px 30px;
+ 	text-decoration: none;
+ 	font-size: 17px;
+ 	color: #ccc;
+ 	display: block;
+ 	transition: 0.3s
+
+ }
+ .side-nav-bar  .btn-close{
+ 	position: absolute;
+ 	top: 0;
+ 	margin: 50px;
+ 	font-size: 36px;
+
+ }
+.side-nav-bar a:hover{
+	background-color: #ddd;
+	color: #000;
 }
